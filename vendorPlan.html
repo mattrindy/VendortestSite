@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead End</title>
+    <link rel="icon" src="images/leaseEndFavicon1.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: midnightblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: midnightblue;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header img {
+            width: 100px; /* Adjust as needed */
+            margin-bottom: 10px;
+        }
+
+        section {
+            padding: 20px;
+            border-bottom: 2px solid honeyyellow;
+        }
+
+        section h2 {
+            color: honeyyellow;
+            margin-top: 0;
+        }
+
+        form {
+            margin: 20px 0;
+        }
+
+        form select, form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid royalblue;
+            border-radius: 4px;
+        }
+
+        form button {
+            padding: 10px 15px;
+            border: none;
+            background-color: royalblue;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: honeyyellow;
+            color: royalblue;
+        }
+
+        img.partner-logo {
+            width: 100px; /* Adjust as needed */
+            margin: 10px;
+            padding: 20px;
+        }
+
+        img[src="images/happyCustomer.png"] {
+            width: 25%;
+        }
+
+        .partner-logo {
+            border: 1px solid royalblue;
+        }
+       
+        header img {
+            background-color: white;
+            padding: 10px;  /* This will ensure there's some space around the image where the background color will show. Adjust as needed. */
+            width: 300px;  /* 25% larger than the original 100px */
+        }
+        
+        input[type="range"] {
+        width: 50%;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <img src="images/lead end logo.png" alt="Lead End Logo">
+    <h1>Lead Gen for Lenders</h1>
+    <p>Where leads end and customers begin</p>
+</header>
+
+<!-- Introduction Section -->
+<section id="introduction">
+    <h2>Introduction</h2>
+    <p>Improved ROI for Credit Unions, Banks, Investors, Brokers, Financial Planners, and more. We may have reached out to you via LinkedIn, phone, web, at a convention, or via our referring partners.</p>
+</section>
+
+<!-- How It Works Section -->
+<section id="how-it-works">
+    <h2>How It Works</h2>
+    <form>
+        <label>Select Your Customer's States:</label>
+        <select name="states" multiple>
+            <!-- You'd need to list all 50 states here. Only a few are shown as an example -->
+            <option value="alabama">Alabama</option>
+            <option value="alaska">Alaska</option>
+            <option value="arizona">Arizona</option>
+            <option value="arkansas">Arkansas</option>
+            <option value="california">California</option>
+            <option value="colorado">Colorado</option>
+            <option value="connecticut">Connecticut</option>
+            <option value="delaware">Delaware</option>
+            <option value="florida">Florida</option>
+            <option value="georgia">Georgia</option>
+            <option value="hawaii">Hawaii</option>
+            <option value="idaho">Idaho</option>
+            <option value="illinois">Illinois</option>
+            <option value="indiana">Indiana</option>
+            <option value="iowa">Iowa</option>
+            <option value="kansas">Kansas</option>
+            <option value="kentucky">Kentucky</option>
+            <option value="louisiana">Louisiana</option>
+            <option value="maine">Maine</option>
+            <option value="maryland">Maryland</optio    n>
+            <option value="massachusetts">Massachusetts</option>
+            <option value="michigan">Michigan</option>
+            <option value="minnesota">Minnesota</option>
+            <option value="mississippi">Mississippi</option>
+            <option value="missouri">Missouri</option>
+            <option value="montana">Montana</option>
+            <option value="nebraska">Nebraska</option>
+            <option value="nevada">Nevada</option>
+            <option value="new-hampshire">New Hampshire</option>
+            <option value="new-jersey">New Jersey</option>
+            <option value="new-mexico">New Mexico</option>
+            <option value="new-york">New York</option>
+            <option value="north-carolina">North Carolina</option>
+            <option value="north-dakota">North Dakota</option>
+            <option value="ohio">Ohio</option>
+            <option value="oklahoma">Oklahoma</option>
+            <option value="oregon">Oregon</option>
+            <option value="pennsylvania">Pennsylvania</option>
+            <option value="rhode-island">Rhode Island</option>
+            <option value="south-carolina">South Carolina</option>
+            <option value="south-dakota">South Dakota</option>
+            <option value="tennessee">Tennessee</option>
+            <option value="texas">Texas</option>
+            <option value="utah">Utah</option>
+            <option value="vermont">Vermont</option>
+            <option value="virginia">Virginia</option>
+            <option value="washington">Washington</option>
+            <option value="west-virginia">West Virginia</option>
+            <option value="wisconsin">Wisconsin</option>
+            <option value="wyoming">Wyoming</option>
+        </select>
+        <br>
+        <p>
+        <label>Select Your Customer's Minimum Credit Score:</label><br>
+        <input type="range" id="credit-range-slider" name="credit-range" min="200" max="800" step="1">
+        <span id="credit-range-value">500</span>  <!-- Initial value -->
+        </p>
+        <br>
+        <label>Their Prior Lease/Loan Types:</label>
+        <select name="prior-loan-type">
+            <option value="auto-lease">Auto Lease</option>
+            <option value="auto-loan">Auto Loan</option>
+            <option value="home-mortgage">Home Mortgage</option>
+            <option value="education-loan">Education Loan</option>
+            <option value="other">Other</option>
+        </select>
+        <br>    
+        <label>Their Current Lease/Loan Types:</label>
+        <select name="current-loan-type">
+            <option value="auto-lease">Auto Lease</option>
+            <option value="auto-loan">Auto Loan</option>
+            <option value="home-mortgage">Home Mortgage</option>
+            <option value="education-loan">Education Loan</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <p><label>Ideal Outreach Time - Lease or Loan Ending in (months):</label><br>
+        <input type="range" id="lease-end-slider" name="lease-end-time" min="1" max="9" step="1">
+        <span id="lease-end-value">5</span>  <!-- Initial value -->
+        </p>
+
+        <p><label>Submit your info and we'll get back to you</label>
+        <input type="email" name="email" placeholder="Your Email Address">
+        <input type="tel" name="phone" placeholder="Your Phone Number">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p><strong>We acquire leads from Experian</strong>. As a fintech brand we work closely with Experian and other credit bureaus to secure the best rates on qualified financial leads. We send offers to those leads via mail, email, and sms.</p>
+    <img src="images/happyCustomer.png" alt="Happy Customer">
+    <p>And we return qualified leads to you</p>
+</section>
+
+<!-- Who You'll Work With Section -->
+<section id="partners">
+    <h2>Who You'll Work With</h2>
+    <div>
+        <p></p><img class="partner-logo" src="images/lease end logo.png" alt="Lease End Logo">
+        Lease End (Trusted Fintech Brand): They’ll work with Experian or other partners to acquire relevant lead information and send that to Printmail Solutions.</p>
+    </div>
+
+    <div>
+        <p></p><img class="partner-logo" src="images/PrintmailLogo.png" alt="Printmail Solutions Logo">
+        Printmail Solutions (Trusted Credit Mailer and Printer): They’ll design mail for your leads, include verse.ai activated “call or text us” phone numbers and web-tracked QR codes. They’ll include mail deliverability and web traffic insights for each contact record, and send those records to Verse.AI.</p>
+    </div>
+
+    <div>
+        <p></p><img class="partner-logo" src="images/verseAI logo.png" alt="Verse.AI Logo">
+        Verse.AI (Trusted Credit Lead SMS and Email marketing): They’ll design SMS and email campaigns tailored to your needs. They’ll provide a reporting dashboard where you can see the performance of your mail, email, and sms efforts. They’ll bill you per lead you acquired, per lead you texted, per lead you emailed, and per lead you mailed. They’ll split the returns with Printmail and Lease End, helping you get a reduced rate you won’t find anywhere else.</p>
+    </div>
+</section>
+
+<!-- Costs Section -->
+<section id="costs">
+    <h2>Costs</h2>
+    <p>An example of costs could be: $0.30 per lead acquired, $0.44 cents per lead emailed, $0.99 per lead texted, and $0.50 per lead mailed.</p>
+</section>
+
+<!-- Closing Statement Section -->
+<section id="closing-statement">
+    <h2>Why Go with Lead End?</h2>
+    <ul>
+        <li>Increase your market share</li>
+        <li>Get in front of your target market</li>
+        <li>Expand your business volume</li>
+        <li>And enhance your performance with an Omni Channel mail, email, and sms funnel geared toward prime leads.</li>
+    </ul>
+    <img src="images/vortexGraphic.png" alt="Vortex Graphic">
+</section>
+
+</body>
+<script>
+    // Credit range slider and its value display
+    const creditRangeSlider = document.getElementById('credit-range-slider');
+    const creditRangeValue = document.getElementById('credit-range-value');
+
+    creditRangeSlider.addEventListener('input', function() {
+        creditRangeValue.textContent = creditRangeSlider.value;
+    });
+
+    // Lease end slider and its value display
+    const leaseEndSlider = document.getElementById('lease-end-slider');
+    const leaseEndValue = document.getElementById('lease-end-value');
+
+    leaseEndSlider.addEventListener('input', function() {
+        leaseEndValue.textContent = leaseEndSlider.value;
+    });
+</script>
+
+
+</html>
